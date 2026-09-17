@@ -1,6 +1,6 @@
 FROM ghcr.io/engigu/baihu:latest
 
-ENV REMOTE_FOLDER="huggingface:/baihu"
+ENV REMOTE_FOLDER="huggingface:baihu"
 
 RUN apt-get update && apt-get install -y \
     jq \
